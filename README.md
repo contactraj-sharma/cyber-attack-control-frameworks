@@ -1,7 +1,7 @@
 [![MITRE ATT&CK® v12](https://img.shields.io/badge/MITRE%20ATT%26CK®-v12-red)](https://attack.mitre.org/versions/v12/)
 [![codecov](https://codecov.io/gh/center-for-threat-informed-defense/attack-control-framework-mappings/branch/main/graph/badge.svg?token=PLVBGOUWMC)](https://codecov.io/gh/center-for-threat-informed-defense/attack-control-framework-mappings)
 
-# Security Control Framework Mappings to ATT&CK
+# Security Control Framework Mappings to ATT&CK and NIST
 This repository contains security control framework mappings to MITRE ATT&CK® with supporting documentation and resources. These mappings provide a critically important resource for organizations to assess their security control coverage against real-world threats as described in the ATT&CK knowledge base and provide a foundation for integrating ATT&CK-based threat information into the risk management process. This work was developed by the [Center for Threat-Informed Defense](https://ctid.mitre-engenuity.org/) in collaboration with our participants.
 
 The most recent mapping update from ATT&CK v10.1 to v12.1 was accomplished by applying the Center’s ATT&CK Sync methodology and tools. This mappings update served as a case study for [ATT&CK Sync](https://github.com/center-for-threat-informed-defense/attack-sync) and a 75% reduction in labor hours was achieved as compared to previous update efforts, due to the ability to quickly focus attention on only those mappings which were materially impacted by changes to ATT&CK. ATT&CK Sync is applicable to any project that relies on ATT&CK and is a freely available, open-source project, as are all Center resources. For more specifics on this effort, please visit the [Case Study: NIST 800 53 Mappings](https://github.com/center-for-threat-informed-defense/attack-sync/wiki/Case-Study:-NIST-800-53-Mappings).
@@ -26,13 +26,13 @@ The most recent mapping update from ATT&CK v10.1 to v12.1 was accomplished by ap
 
 ## A Collaborative Approach
 
-Mapping NIST Special Publication 800-53, or any security control framework, to ATT&CK is a labor intensive and often subjective undertaking. Furthermore, due to the large number of security controls in any given framework and the evolving nature of cyber adversaries, these mappings are often error prone and difficult to maintain. We recognized that there was not only a need for mappings NIST 800-53, but an opportunity to work collaboratively and advance threat-informed defense with the global community. With over 6,300 individual mappings between NIST 800-53 and ATT&CK, we believe that this work will greatly reduce the burden on the community – allowing organizations to focus their limited time and resources on understanding how controls map to threats in their environment.
+Mapping NIST Special Publication 800-53, or any security control framework, to ATT&CK is a labor-intensive and often subjective undertaking. Furthermore, due to the large number of security controls in any given framework and the evolving nature of cyber adversaries, these mappings are often error-prone and difficult to maintain. We recognized that there was not only a need for mappings NIST 800-53, but an opportunity to work collaboratively and advance threat-informed defense with the global community. With over 6,300 individual mappings between NIST 800-53 and ATT&CK, we believe that this work will greatly reduce the burden on the community – allowing organizations to focus their limited time and resources on understanding how controls map to threats in their environment.
 
 ## Repository Contents
 
 - [Frameworks](/frameworks) — this directory contains the security control frameworks and their mappings to ATT&CK techniques. Each security control framework has its own directory of documentation and resources. 
 - [Mapping Methodology](/docs/mapping_methodology.md) — a description of the general process used to create the control mappings
-- [Tooling](/docs/tooling.md) — a set of python tools to support the creation of new mappings and the customization of existing mappings
+- [Tooling](/docs/tooling.md) — a set of Python tools to support the creation of new mappings and the customization of existing mappings
 - [Use Cases](/docs/use-cases.md) - use cases for security control framework mappings to ATT&CK
 - [STIX Format](/docs/STIX_format.md) — information regarding the STIX representation of the control frameworks and the mappings to ATT&CK
 - [Visualization](/docs/visualization.md) — this document describes some ways the mappings data can be visualized. 
@@ -48,7 +48,7 @@ First, review the mappings, use them, and tell us what you think. We welcome you
 
 Second, we are interested in applying our methodology to other security control frameworks. Let us know what frameworks you would like to see mapped to ATT&CK. Your input will help us prioritize how we expand our mappings. 
 
-Finally, we are interested developing additional tools and resources to help the community understand and make threat-informed decisions in their risk management programs. Share your ideas and we will consider them as we explore additional research projects.  
+Finally, we are interested in developing additional tools and resources to help the community understand and make threat-informed decisions in their risk management programs. Share your ideas and we will consider them as we explore additional research projects.  
 
 ## Questions and Feedback
    
